@@ -35,12 +35,18 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 453px) and (max-width: 576px) {
   .article {
-    min-width: 300px;
+    min-width: 320px;
 
     &Title {
       font-size: 35px;
     }
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .article {
+    min-width: 260px;
   }
 }
